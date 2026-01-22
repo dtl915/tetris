@@ -328,7 +328,7 @@ def top_score(current=None):
         f.close()
 def pause(text,surface):
 
-    grey=pygame.transform.scale(pygame.image.load('grey.png').convert_alpha(),(information['screen_x'],information['screen_y']))
+    grey=pygame.transform.scale(pygame.image.load(r'blocks\grey.png').convert_alpha(),(information['screen_x'],information['screen_y']))
     grey.set_alpha(200)
     
 
@@ -357,14 +357,13 @@ def main():
     surface=pygame.display.set_mode((information['screen_x'],information['screen_y']))
     pygame.display.set_caption("Tetris_By_Harry")
 
-    lightblue=pygame.image.load('lightblue.png').convert()
-    darkblue=pygame.image.load('darkblue.png').convert()
-    red=pygame.image.load('red.png').convert()
-    yellow= pygame.image.load('yellow.png').convert()
-    orange=pygame.image.load('orange.png').convert()
-    green=pygame.image.load('green.png').convert()
-    purple=pygame.image.load('purple.png').convert()
-
+    lightblue=pygame.image.load(r'blocks\lightblue.png').convert()
+    darkblue=pygame.image.load(r'blocks\darkblue.png').convert()
+    red=pygame.image.load(r'blocks\red.png').convert()
+    yellow= pygame.image.load(r'blocks\yellow.png').convert()
+    orange=pygame.image.load(r'blocks\orange.png').convert()
+    green=pygame.image.load(r'blocks\green.png').convert()
+    purple=pygame.image.load(r'blocks\purple.png').convert()
 
     colors=[green, red, lightblue, yellow, darkblue,orange, purple]
 
