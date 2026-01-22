@@ -2,14 +2,6 @@
 
 A classic Tetris game built with Python and Pygame.
 
-## Features
-
-- All 7 standard tetromino shapes (S, Z, I, O, J, L, T)
-- Level progression system with increasing speed
-- High score tracking (persisted to file)
-- Pause functionality
-- Soft drop and hard drop mechanics
-
 ## Requirements
 
 - Python 3.x
